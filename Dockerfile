@@ -1,3 +1,3 @@
 FROM ubuntu:18.04
 
-RUN apt-get -y install ssh
+RUN apt-get update && apt-get -y install openssh-client
